@@ -39,8 +39,8 @@
 .contents {
   position: absolute;
   opacity: 0;
-  -webkit-animation: 30s fadeIn;
-  animation: 30s fadeIn;
+  -webkit-animation: 30s fadeIn forwards;
+  animation: 30s fadeIn forwards;
   font-family: 'New Tegomin', sans-serif;
   color: lightgray;
 }
@@ -53,4 +53,9 @@ footer {
   text-align:center;
   z-index: 1000;
   color: gray;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 0.5; }
 }
