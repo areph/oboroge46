@@ -29,7 +29,7 @@
 }
 
 .contents {
-  font-size: 20vh;
+  font-size: 30vh;
 }
 
 .wrapper {
@@ -39,7 +39,7 @@
 .contents {
   position: absolute;
   opacity: 0;
-  animation: 20s fadeIn forwards;
+  animation: 30s fadeIn forwards;
   font-family: 'New Tegomin', sans-serif;
 }
 
@@ -50,6 +50,7 @@ footer {
   bottom:0;
   text-align:center;
   z-index: 1000;
+  color: gray;
 }
 @keyframes App-logo-spin {
   from {
