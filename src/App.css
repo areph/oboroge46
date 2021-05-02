@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&family=Open+Sans&display=swap');
+
 .App {
   text-align: center;
 }
@@ -14,20 +16,41 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
   color: #61dafb;
 }
 
+.contents {
+  font-size: 20vh;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.contents {
+  position: absolute;
+  opacity: 0;
+  animation: 20s fadeIn forwards;
+  font-family: 'New Tegomin', sans-serif;
+}
+
+footer {
+  position: fixed;
+  width:100%;
+  height:56px;
+  bottom:0;
+  text-align:center;
+  z-index: 1000;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
