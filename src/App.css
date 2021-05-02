@@ -39,6 +39,7 @@
 .contents {
   position: absolute;
   opacity: 0;
+  -webkit-animation: 30s fadeIn forwards;
   animation: 30s fadeIn forwards;
   font-family: 'New Tegomin', sans-serif;
   color: lightgray;
