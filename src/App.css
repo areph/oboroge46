@@ -48,7 +48,7 @@
 footer {
   position: fixed;
   width:100%;
-  height:56px;
+  height:24px;
   bottom:0;
   text-align:center;
   z-index: 1000;
